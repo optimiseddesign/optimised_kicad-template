@@ -23,17 +23,15 @@ The following items are to be done in future for this PCB:
 
 **Major**
 - Item
-- Item
-- Item
 
 **Minor**
-- Item
-- Item
 - Item
 
 ## Links
 
-Example Link here, so you can [Click Me](http://www.example.com/), to get where you want to go.
+[Official CLIENT-COMPANY website](https://www.CLIENT-COMPANY.com/)
+[Official CLIENT-PROJECT link](https://www.CLIENT-PROJECT.com/)
+[Kevin Bibby / KB Consulting LinkedIn](https://www.linkedin.com/in/kevinbibby/)
 
 
 # TODO (both this file, and the PCB template):
