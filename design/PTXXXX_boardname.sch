@@ -5,13 +5,13 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Board Title"
-Date "2019-12-20"
+Title "Board Name"
+Date "2019-12-21"
 Rev "1A"
-Comp "KB Consulting"
-Comment1 "c1"
-Comment2 "c2"
-Comment3 "c3"
-Comment4 "c4"
+Comp "XXXX Ltd"
+Comment1 "PTXXXX"
+Comment2 ""
+Comment3 ""
+Comment4 ""
 $EndDescr
 $EndSCHEMATC

@@ -11,14 +11,11 @@
 
   (page A4)
   (title_block
-    (title "Board Title")
-    (date 2019-12-20)
+    (title "Board Name")
+    (date 2019-12-21)
     (rev 1.0)
-    (company "KB Consulting")
-    (comment 1 c1)
-    (comment 2 c2)
-    (comment 3 c3)
-    (comment 4 c4)
+    (company "XXXX Ltd")
+    (comment 1 PTXXXX)
   )
 
   (layers
