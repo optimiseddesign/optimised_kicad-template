@@ -1,13 +1,17 @@
-# Board Name - Release Notes
+# Release Notes
 
 This document gives information and history for the following PCB release:
 
-|Item                |Value                          |
-|----------------|-------------------------------|
-|PCB ID                         |PTXXXX         |
-|Revision (Layout/PCB)          |1.0            |
-|Revision (Schematic/BOM)       |1A             |
-|Date                           |YYYY-MM-DD     |
+|Item                           |Value                          |
+|-------------------------------|-------------------------------|
+|Board Name                     |Board Name                     |
+|PCB ID                         |PTXXXX                         |
+|Revision (Layout/PCB)          |1.0                            |
+|Revision (Schematic/BOM)       |1A                             |
+|Release Date                   |YYYY-MM-DD                     |
+|Client Company                 |CLIENT                         |
+
+> Note: This PCB release has been designed by KB Consulting / Kevin Bibby, on behalf of the Client Company.
 
 ## PCB Description
 
@@ -29,9 +33,9 @@ The following items are to be done in future for this PCB:
 
 ## Links
 
-[Official CLIENT-COMPANY website](https://www.CLIENT-COMPANY.com/)
-[Official CLIENT-PROJECT link](https://www.CLIENT-PROJECT.com/)
-[Kevin Bibby / KB Consulting LinkedIn](https://www.linkedin.com/in/kevinbibby/)
+- [Official CLIENT-COMPANY website](https://www.CLIENT-COMPANY.com/)
+- [Official CLIENT-PROJECT link](https://www.CLIENT-PROJECT.com/)
+- [Kevin Bibby / KB Consulting LinkedIn](https://www.linkedin.com/in/kevinbibby/)
 
 
 # TODO (both this file, and the PCB template):
