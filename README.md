@@ -13,13 +13,43 @@ This document gives information and history for the following PCB release:
 
 > Note: This PCB release has been designed by KB Consulting / Kevin Bibby, on behalf of the Client Company.
 
+## PCB Images
+
+Top View:
+
+![alt text][image_top]
+
+Bottom View:
+
+![alt text][image_bottom]
+
+[image_top]: images/ptxxxx_boardname_top.png "Top View"
+[image_bottom]: images/ptxxxx_boardname_bottom.png "Bottom View"
+
+
 ## PCB Description
 
 Description Text
 
 ## Release History
 
-Release History
+```
+Kevin Bibby / KB Consulting
+PTXXXX 1.0 1A
+DD/MM/YYYY
+-------------
+Change1
+Change2
+Change3
+```
+
+```
+AUTHOR
+VERSION
+DD/MM/YYYY
+-------------
+Previous other version Change1
+```
 
 ## PCB TO-DO List
 
@@ -39,7 +69,9 @@ The following items are to be done in future for this PCB:
 
 
 # TODO (both this file, and the PCB template):
-- Include picture reference for PCB, at top of this file?
+- Add Layer names so PDF Print Layers option works
+- Add Design Checklist (or in library?)
+- Set up default template design rules etc
 - Explain project Set Up, and KB consulting involvement
 - Release notice/ECN file?
 - Release history file? Including explaining handover and version heritage
