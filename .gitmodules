@@ -1,3 +1,4 @@
 [submodule "kbconsulting_kicad-libraries"]
 	path = design/kbconsulting_kicad-libraries
 	url = https://github.com/kb-consulting/kbconsulting_kicad-libraries.git
+    branch = master
