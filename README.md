@@ -9,9 +9,9 @@ This document gives information and history for the following PCB release:
 |Revision (Layout/PCB)          |1.0                            |
 |Revision (Schematic/BOM)       |1A                             |
 |Release Date                   |YYYY-MM-DD                     |
-|Client Company                 |CLIENT                         |
+|Customer                       |CUSTOMER                       |
 
-> Note: This PCB release has been designed by KB Consulting / Kevin Bibby, on behalf of the Client Company.
+> Note: This PCB release has been designed by KB Consulting / Kevin Bibby, on behalf of the Customer Company.
 
 ## PCB Images
 
