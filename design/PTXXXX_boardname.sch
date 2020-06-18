@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PTXXXX_boardname-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -121,5 +120,5 @@ Wire Notes Line
 Wire Notes Line
 	6500 7350 6450 7350
 Text Notes 4000 7500 0    59   ~ 0
-Route as matched length 100R differential pairs
+Route as matched length 100Z differential pairs
 $EndSCHEMATC
