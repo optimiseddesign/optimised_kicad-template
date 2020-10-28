@@ -1,9 +1,9 @@
 When using this template repo, can't use Githubs built-in template system (it ignores the submodule).
 Instead follow these directions - https://help.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
 
-1) Make a blank repo at https://github.com/new
+1) Make a new blank repo at https://github.com/new (without using a template)
 
-2) Open Git Bash. Create a bare clone of the repository;
+2) Open Git Bash. Create a bare clone of the template repository;
 
 git clone --bare https://github.com/kb-consulting/template-kicad.git TEMP-template-kicad
 
