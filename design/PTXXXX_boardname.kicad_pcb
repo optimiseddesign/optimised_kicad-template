@@ -384,7 +384,7 @@
   (gr_text "INSTRUCTIONS:\n===========\nMULTILAYER, SURFACE MOUNT & THROUGH HOLE\n4 (2 SIGNAL & POUR, 2 SPLIT PLANE)\nMIN 0.2MM TRACK / 0.20MM GAP / 0.30MM DRILL\n90Z DIFF PAIR, OUTER\n    (0.25MM TRACK / 0.15MM GAP / 0.12MM TO INNER)\nFR4 OR EQUIVALENT, PCB RATED UL94V-0\n35um OUTERS AND 17.5um INNERS\nENIG\nGREEN\nWHITE\n100.0MM X 150.0MM\n1.6MM +/- 10% MAX OVER PLATING\nNOT REQUIRED\nNOT REQUIRED\nNOT REQUIRED\nSEEK APPROVAL\nYES\nSEE DRILL FILE. HOLE SIZES ARE FINISHED.\nNOT REQUIRED\nNONE" (at 226.2 114.9) (layer F.Fab) (tstamp 5EEBBEE1)
     (effects (font (size 1.2 1.2) (thickness 0.2)) (justify left))
   )
-  (gr_text KBconsulting (at 55.7 151.5) (layer F.SilkS)
+  (gr_text OptimisedPD (at 55.7 151.5) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.12)))
   )
   (gr_text 1.0 (at 53.2 155.3) (layer F.SilkS) (tstamp 5EB08871)
