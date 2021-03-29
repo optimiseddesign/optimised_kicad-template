@@ -17,6 +17,28 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# _kb_miscellaneous_Logo
+#
+DEF _kb_miscellaneous_Logo LOGO 0 50 Y Y 1 F N
+F0 "LOGO" 200 50 50 H V C CNN
+F1 "_kb_miscellaneous_Logo" 200 -50 50 H V C CNN
+F2 "" -145 0 50 H I C CNN
+F3 "" -145 0 50 H I C CNN
+F4 "PCB Logo Virtual Part" -100 50 50 H I C CNN "Description"
+F5 "N/A" -100 50 50 H I C CNN "Manufacturer1"
+F6 "N/A" -100 50 50 H I C CNN "MPN1"
+F7 " " -100 50 50 H I C CNN "Manufacturer2"
+F8 " " -100 50 50 H I C CNN "MPN2"
+F9 " " -100 50 50 H I C CNN "Vendor1"
+F10 " " -100 50 50 H I C CNN "SKU1"
+F11 " " -100 50 50 H I C CNN "Vendor2"
+F12 " " -100 50 50 H I C CNN "SKU2"
+F13 "DNF" -100 50 50 H I C CNN "FitPart"
+DRAW
+S -50 -50 50 50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P

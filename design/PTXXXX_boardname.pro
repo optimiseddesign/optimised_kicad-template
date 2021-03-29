@@ -14,7 +14,7 @@ LibDir=
 [eeschema/libraries]
 [schematic_editor]
 version=1
-PageLayoutDescrFile=kbconsulting_kicad-libraries/environment/OptimisedPD_Titleblock.kicad_wks
+PageLayoutDescrFile=optimised_kicad-libraries/environment/OptimisedPD_Titleblock.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=kbconsulting_kicad-libraries/environment/OptimisedPD_Titleblock.kicad_wks
+PageLayoutDescrFile=optimised_kicad-libraries/environment/OptimisedPD_Titleblock.kicad_wks
 LastNetListRead=PTXXXX_boardname.net
 CopperLayerCount=4
 BoardThickness=1.6

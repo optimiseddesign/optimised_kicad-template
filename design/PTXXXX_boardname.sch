@@ -121,4 +121,25 @@ Wire Notes Line
 	6500 7350 6450 7350
 Text Notes 4000 7500 0    59   ~ 0
 Route as matched length 100Z differential pairs
+$Comp
+L _kb_miscellaneous:Logo LOGO1
+U 1 1 60625BFA
+P 4050 7000
+F 0 "LOGO1" H 4128 7046 50  0000 L CNN
+F 1 "Optimised Logo" H 4128 6955 50  0000 L CNN
+F 2 "_kb_miscellaneous:PCB_Silk_Logo_Optimised" H 3905 7000 50  0001 C CNN
+F 3 "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" H 3905 7000 50  0001 C CNN
+F 4 "PCB Logo Virtual Part" H 3950 7050 50  0001 C CNN "Description"
+F 5 "N/A" H 3950 7050 50  0001 C CNN "Manufacturer1"
+F 6 "N/A" H 3950 7050 50  0001 C CNN "MPN1"
+F 7 " " H 3950 7050 50  0001 C CNN "Manufacturer2"
+F 8 " " H 3950 7050 50  0001 C CNN "MPN2"
+F 9 " " H 3950 7050 50  0001 C CNN "Vendor1"
+F 10 " " H 3950 7050 50  0001 C CNN "SKU1"
+F 11 " " H 3950 7050 50  0001 C CNN "Vendor2"
+F 12 " " H 3950 7050 50  0001 C CNN "SKU2"
+F 13 "DNF" H 3950 7050 50  0001 C CNN "FitPart"
+	1    4050 7000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
