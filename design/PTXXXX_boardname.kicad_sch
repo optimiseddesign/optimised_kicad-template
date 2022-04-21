@@ -10,6 +10,8 @@
     (rev "1A")
     (company "XXXX Ltd")
     (comment 1 "PTXXXX")
+    (comment 2 "Stevie Janowski")
+    (comment 3 "Long Johnson")
   )
 
   (lib_symbols
