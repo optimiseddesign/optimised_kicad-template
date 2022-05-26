@@ -11,6 +11,8 @@
     (rev "1.0")
     (company "XXXX Ltd")
     (comment 1 "PTXXXX")
+    (comment 2 "Author Name")
+    (comment 3 "Reviewer Name")
   )
 
   (layers
