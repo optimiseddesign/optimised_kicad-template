@@ -11,7 +11,7 @@ git clone --bare https://github.com/optimiseddesign/optimised_kicad-template.git
 
 cd TEMP_optimised_kicad-template
 git push --mirror https://github.com/optimiseddesign/ptxxxx_new-board-name.git
-
+Note: will need to enter username and password (password is not a Personal Access Token, created from https://github.com/settings/tokens)
 
 4) Remove the temporary local repository you created earlier;
 
