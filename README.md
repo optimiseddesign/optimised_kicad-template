@@ -11,7 +11,7 @@ This document gives information and history for the following PCB release:
 |Release Date                   |YYYY-MM-DD                     |
 |Customer                       |CUSTOMER                       |
 
-> Note: This PCB release has been designed by Optimised Product Design / Kevin Bibby, on behalf of the Customer Company.
+> Note: This PCB release has been designed by Optimised Product Design Ltd, on behalf of the Customer Company.
 
 ## PCB Images
 
@@ -34,7 +34,7 @@ Description Text
 ## Release History
 
 ```
-Kevin Bibby / Optimised Product Design
+Kevin Bibby / Optimised Product Design Ltd
 PTXXXX 1.0 1A
 DD/MM/YYYY
 -------------
@@ -65,7 +65,7 @@ The following items are to be done in future for this PCB:
 
 - [Official CLIENT-COMPANY website]( https://www.CLIENT-COMPANY.com/ )
 - [Official CLIENT-PROJECT link]( https://www.CLIENT-PROJECT.com/ )
-- [Kevin Bibby / Optimised Product Design]( http://www.optimiseddesign.com )
+- [Kevin Bibby / Optimised Product Design Ltd]( http://www.optimiseddesign.com )
 
 
 # TODO (both this file, and the PCB template):
