@@ -1,0 +1,7 @@
+(version 1)
+
+# Don't use thermal reliefs on heatsink pads
+(rule heat_sink_pad
+    (constraint zone_connection solid)
+    (condition "A.Fabrication_Property == 'Heatsink pad'")
+    (severity error))
