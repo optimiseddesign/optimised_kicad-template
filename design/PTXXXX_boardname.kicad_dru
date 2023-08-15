@@ -1,7 +1,13 @@
 (version 1)
 
-# Don't use thermal reliefs on heatsink pads
+# Default to not using thermal reliefs on heatsink pads
+# Note: NOT a DRC check, can be locally overridden in footprint
 (rule heat_sink_pad
     (constraint zone_connection solid)
-    (condition "A.Fabrication_Property == 'Heatsink pad'")
-    (severity error))
+    (condition "A.Fabrication_Property == 'Heatsink pad'"))
+
+# DRC - prevent solder wicking from SMD pads
+(rule holes_in_pads
+    (constraint physical_hole_clearance (min 0.2mm))
+    (condition "B.Pad_Type == 'SMD'")
+    (severity warning))
