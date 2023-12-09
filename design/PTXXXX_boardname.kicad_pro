@@ -766,7 +766,58 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "Description",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer1",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "MPN1",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Manufacturer2",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "MPN2",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor1",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "SKU1",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "Vendor2",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "SKU2",
+          "url": false,
+          "visible": false
+        },
+        {
+          "name": "FitPart",
+          "url": false,
+          "visible": true
+        }
+      ],
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
