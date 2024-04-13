@@ -1,836 +1,2159 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid be6dff3f-7b56-472d-ad92-9d283766b79e)
-
-  (paper "A4")
-
-  (title_block
-    (title "Board Name")
-    (date "2023-08-08")
-    (rev "1A")
-    (company "XXXX Ltd")
-    (comment 1 "PTXXXX")
-    (comment 2 "Stevie Janowski")
-    (comment 3 "Long Johnson")
-  )
-
-  (lib_symbols
-    (symbol "Mechanical:MountingHole_Pad" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "H" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MountingHole_Pad" (at 0 4.445 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "mounting hole" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MountingHole_Pad_0_1"
-        (circle (center 0 1.27) (radius 1.27)
-          (stroke (width 1.27) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "MountingHole_Pad_1_1"
-        (pin input line (at 0 -2.54 90) (length 2.54)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "_kb_miscellaneous:Fiducial" (pin_names (offset 1.27)) (in_bom yes) (on_board yes)
-      (property "Reference" "FID" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Fiducial" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at -1.27 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at -1.27 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "Fiducial Assembly Marker" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer1" "N/A" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN1" "N/A" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer2" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN2" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Vendor1" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SKU1" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Vendor2" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SKU2" " " (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "FitPart" "DNF" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Fiducial_0_1"
-        (circle (center 0 0) (radius 1.27)
-          (stroke (width 0.508) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "_kb_miscellaneous:Logo" (pin_names (offset 1.27)) (in_bom yes) (on_board yes)
-      (property "Reference" "LOGO" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Logo" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at -3.683 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at -3.683 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Description" "PCB Logo Virtual Part" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer1" "N/A" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN1" "N/A" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Manufacturer2" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "MPN2" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Vendor1" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SKU1" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Vendor2" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "SKU2" " " (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "FitPart" "DNF" (at -2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Select logo footprint after placing" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "PCB Logo Virtual Part" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Logo_0_1"
-        (rectangle (start -1.27 -1.27) (end 1.27 1.27)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 49.53 181.61) (diameter 0) (color 0 0 0 0)
-    (uuid 5c877ef5-6150-42ef-895e-a2ff433e7a71)
-  )
-  (junction (at 36.83 181.61) (diameter 0) (color 0 0 0 0)
-    (uuid acabb0ea-021e-4c56-a158-2fe2186aa673)
-  )
-  (junction (at 62.23 181.61) (diameter 0) (color 0 0 0 0)
-    (uuid c135557b-79cf-433e-a18e-939b34284445)
-  )
-
-  (wire (pts (xy 49.53 181.61) (xy 49.53 179.07))
-    (stroke (width 0) (type default))
-    (uuid 07bb9ac7-c4f4-4413-8846-2feee71f2e74)
-  )
-  (polyline (pts (xy 129.54 44.45) (xy 138.43 41.91))
-    (stroke (width 0) (type dash))
-    (uuid 0a921fcd-5b16-4beb-88a9-ad8ba2410195)
-  )
-
-  (wire (pts (xy 36.83 179.07) (xy 36.83 181.61))
-    (stroke (width 0) (type default))
-    (uuid 0c5f60e6-3a5d-4d1c-8c8e-1a2456bbbfa1)
-  )
-  (wire (pts (xy 36.83 181.61) (xy 49.53 181.61))
-    (stroke (width 0) (type default))
-    (uuid 2c04299e-e874-4f87-b226-b65e65eef995)
-  )
-  (wire (pts (xy 49.53 181.61) (xy 62.23 181.61))
-    (stroke (width 0) (type default))
-    (uuid 3c38b2f9-f918-4c1e-a96c-b913903bb7ca)
-  )
-  (wire (pts (xy 36.83 181.61) (xy 36.83 184.15))
-    (stroke (width 0) (type default))
-    (uuid 65b9de58-8ed0-431e-8ace-8e0637532df5)
-  )
-  (wire (pts (xy 62.23 181.61) (xy 74.93 181.61))
-    (stroke (width 0) (type default))
-    (uuid ab6649bf-62b8-49da-ba09-85c1ee5dd253)
-  )
-  (wire (pts (xy 62.23 181.61) (xy 62.23 179.07))
-    (stroke (width 0) (type default))
-    (uuid aee469fc-c5f2-4050-983b-65966cb9d124)
-  )
-  (wire (pts (xy 161.29 190.5) (xy 167.64 190.5))
-    (stroke (width 0) (type default))
-    (uuid bd3db677-9d0f-46c1-9956-a17efb62c6d3)
-  )
-  (wire (pts (xy 74.93 181.61) (xy 74.93 179.07))
-    (stroke (width 0) (type default))
-    (uuid f0fdc50f-7dc4-47a3-be9f-1aedf9af6c0f)
-  )
-  (wire (pts (xy 161.29 187.96) (xy 167.64 187.96))
-    (stroke (width 0) (type default))
-    (uuid f398c5fb-7b8d-4fdf-b399-85fb98e738d5)
-  )
-
-  (rectangle (start 74.93 40.64) (end 129.54 81.28)
-    (stroke (width 0) (type dash))
-    (fill (type none))
-    (uuid 04e91ba8-3505-4eba-9636-a6ab7f19de6d)
-  )
-  (rectangle (start 163.83 186.69) (end 165.1 191.77)
-    (stroke (width 0) (type dash_dot_dot))
-    (fill (type none))
-    (uuid 0ee73494-b1f1-4b9e-8f8e-cbe67b488d9a)
-  )
-
-  (text "Route as matched length 100Z differential pairs" (at 101.6 190.5 0)
-    (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    (uuid 217288e6-8f8e-4cf9-87bb-d7a0080eb6f8)
-  )
-  (text "Title" (at 140.97 43.18 0)
-    (effects (font (size 2.0066 2.0066) (thickness 0.4013) bold) (justify left bottom))
-    (uuid 6c59648d-32f4-47d2-b8d6-11c01f8cc2a4)
-  )
-  (text "Descriptive text about a circuit block / interface."
-    (at 140.97 46.99 0)
-    (effects (font (size 1.4986 1.4986)) (justify left bottom))
-    (uuid 931c8188-1eb4-4903-9218-d54f9ee20205)
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 36.83 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005eaeed3f)
-    (property "Reference" "H1" (at 39.37 175.2854 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3 Hole" (at 39.37 177.5968 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "M3 Mounting Hole" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 36.83 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a71886e-a0db-4c0c-b8ac-b05b99e0ee4e))
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "H1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 36.83 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005eaef4ed)
-    (property "Reference" "#PWR01" (at 36.83 190.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 36.957 188.5442 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 36.83 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 36.83 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f1725603-db37-4ab8-aa1d-d4ce5d5e5d2a))
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 49.53 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005eaefea5)
-    (property "Reference" "H2" (at 52.07 175.2854 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3 Hole" (at 52.07 177.5968 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "M3 Mounting Hole" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 49.53 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e9cff397-e18d-476f-ba66-82245dd3ddb4))
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 62.23 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005eaf0ac1)
-    (property "Reference" "H3" (at 64.77 175.2854 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3 Hole" (at 64.77 177.5968 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "M3 Mounting Hole" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 62.23 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3fb63a53-79c0-4f48-8465-e0f438f9ff66))
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "H3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 74.93 176.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-00005eaf13ed)
-    (property "Reference" "H4" (at 77.47 175.2854 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "M3 Hole" (at 77.47 177.5968 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "M3 Mounting Hole" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 74.93 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid edd5ba59-ef79-4fe2-9f4d-9c4fabcbd727))
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "H4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Logo") (at 102.87 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 00000000-0000-0000-0000-000060625bfa)
-    (property "Reference" "LOGO1" (at 104.8512 176.6316 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Optimised Logo" (at 104.8512 178.943 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "_kb_miscellaneous:PCB_Silk_Logo_Optimised" (at 99.187 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 99.187 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "PCB Logo Virtual Part" (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 100.33 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "LOGO1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 142.24 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 0d64b0dc-be5b-418e-a54a-7329042c0062)
-    (property "Reference" "FID4" (at 144.78 173.9899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 140.97 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 140.97 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 142.24 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 132.08 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3254cdb8-dafc-47ca-a1c5-164b6f28619c)
-    (property "Reference" "FID3" (at 134.62 181.6099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 132.08 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 130.81 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 130.81 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 132.08 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 132.08 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 132.08 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 132.08 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 132.08 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 49028e32-30bd-47eb-9e53-b83a0a7bf657)
-    (property "Reference" "FID1" (at 134.62 173.9899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 130.81 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 130.81 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 132.08 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 142.24 181.61 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 91c08a2d-91b1-4509-8b08-c16e82fc7154)
-    (property "Reference" "FID6" (at 144.78 181.6099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 142.24 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 140.97 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 140.97 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 142.24 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 142.24 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 142.24 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 142.24 185.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 132.08 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 97485eee-4c91-4308-83e7-1477047e7584)
-    (property "Reference" "FID2" (at 134.62 177.7999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 130.81 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 130.81 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 132.08 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 132.08 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "_kb_miscellaneous:Fiducial") (at 142.24 177.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a8042a02-af6d-41c7-befa-0b0cef780c7c)
-    (property "Reference" "FID5" (at 144.78 177.7999 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Fiducial" (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm" (at 140.97 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\" (at 140.97 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "Fiducial Assembly Marker" (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer1" "N/A" (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN1" "N/A" (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer2" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN2" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor1" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU1" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Vendor2" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "SKU2" " " (at 142.24 177.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "FitPart" "DNF" (at 142.24 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "PTXXXX_boardname"
-        (path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
-          (reference "FID5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "be6dff3f-7b56-472d-ad92-9d283766b79e")
+	(paper "A4")
+	(title_block
+		(title "Board Name")
+		(date "2023-08-08")
+		(rev "1A")
+		(company "XXXX Ltd")
+		(comment 1 "PTXXXX")
+		(comment 2 "Stevie Janowski")
+		(comment 3 "Long Johnson")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_kb_miscellaneous:Fiducial"
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+				(at -1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+				(at -1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Assembly Marker"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1" "N/A"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN1" "N/A"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer2" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN2" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor1" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU1" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor2" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU2" " "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FitPart" "DNF"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "_kb_miscellaneous:Logo"
+			(pin_names
+				(offset 1.27)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Logo"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.683 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+				(at -3.683 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PCB Logo Virtual Part"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer1" "N/A"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN1" "N/A"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer2" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN2" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor1" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU1" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vendor2" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SKU2" " "
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "FitPart" "DNF"
+				(at -2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Select logo footprint after placing"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_0_1"
+				(rectangle
+					(start -1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 49.53 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c877ef5-6150-42ef-895e-a2ff433e7a71")
+	)
+	(junction
+		(at 36.83 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acabb0ea-021e-4c56-a158-2fe2186aa673")
+	)
+	(junction
+		(at 62.23 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c135557b-79cf-433e-a18e-939b34284445")
+	)
+	(wire
+		(pts
+			(xy 49.53 181.61) (xy 49.53 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bb9ac7-c4f4-4413-8846-2feee71f2e74")
+	)
+	(polyline
+		(pts
+			(xy 129.54 44.45) (xy 138.43 41.91)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0a921fcd-5b16-4beb-88a9-ad8ba2410195")
+	)
+	(wire
+		(pts
+			(xy 36.83 179.07) (xy 36.83 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5f60e6-3a5d-4d1c-8c8e-1a2456bbbfa1")
+	)
+	(wire
+		(pts
+			(xy 36.83 181.61) (xy 49.53 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c04299e-e874-4f87-b226-b65e65eef995")
+	)
+	(wire
+		(pts
+			(xy 49.53 181.61) (xy 62.23 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c38b2f9-f918-4c1e-a96c-b913903bb7ca")
+	)
+	(wire
+		(pts
+			(xy 36.83 181.61) (xy 36.83 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65b9de58-8ed0-431e-8ace-8e0637532df5")
+	)
+	(wire
+		(pts
+			(xy 62.23 181.61) (xy 74.93 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab6649bf-62b8-49da-ba09-85c1ee5dd253")
+	)
+	(wire
+		(pts
+			(xy 62.23 181.61) (xy 62.23 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee469fc-c5f2-4050-983b-65966cb9d124")
+	)
+	(wire
+		(pts
+			(xy 161.29 190.5) (xy 167.64 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3db677-9d0f-46c1-9956-a17efb62c6d3")
+	)
+	(wire
+		(pts
+			(xy 74.93 181.61) (xy 74.93 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0fdc50f-7dc4-47a3-be9f-1aedf9af6c0f")
+	)
+	(wire
+		(pts
+			(xy 161.29 187.96) (xy 167.64 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f398c5fb-7b8d-4fdf-b399-85fb98e738d5")
+	)
+	(rectangle
+		(start 74.93 40.64)
+		(end 129.54 81.28)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04e91ba8-3505-4eba-9636-a6ab7f19de6d)
+	)
+	(rectangle
+		(start 163.83 186.69)
+		(end 165.1 191.77)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ee73494-b1f1-4b9e-8f8e-cbe67b488d9a)
+	)
+	(text "Route as matched length 100Z differential pairs"
+		(exclude_from_sim no)
+		(at 101.6 190.5 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "217288e6-8f8e-4cf9-87bb-d7a0080eb6f8")
+	)
+	(text "Title"
+		(exclude_from_sim no)
+		(at 140.97 43.18 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c59648d-32f4-47d2-b8d6-11c01f8cc2a4")
+	)
+	(text "Descriptive text about a circuit block / interface."
+		(exclude_from_sim no)
+		(at 140.97 46.99 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "931c8188-1eb4-4903-9218-d54f9ee20205")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 36.83 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eaeed3f")
+		(property "Reference" "H1"
+			(at 39.37 175.2854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 39.37 177.5968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 36.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a71886e-a0db-4c0c-b8ac-b05b99e0ee4e")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eaef4ed")
+		(property "Reference" "#PWR01"
+			(at 36.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.957 188.5442 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1725603-db37-4ab8-aa1d-d4ce5d5e5d2a")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 49.53 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eaefea5")
+		(property "Reference" "H2"
+			(at 52.07 175.2854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 52.07 177.5968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 49.53 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9cff397-e18d-476f-ba66-82245dd3ddb4")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 62.23 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eaf0ac1")
+		(property "Reference" "H3"
+			(at 64.77 175.2854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 64.77 177.5968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb63a53-79c0-4f48-8465-e0f438f9ff66")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 74.93 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005eaf13ed")
+		(property "Reference" "H4"
+			(at 77.47 175.2854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 Hole"
+			(at 77.47 177.5968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "M3 Mounting Hole"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd5ba59-ef79-4fe2-9f4d-9c4fabcbd727")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Logo")
+		(at 102.87 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000060625bfa")
+		(property "Reference" "LOGO1"
+			(at 104.8512 176.6316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Optimised Logo"
+			(at 104.8512 178.943 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:PCB_Silk_Logo_Optimised"
+			(at 99.187 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 99.187 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PCB Logo Virtual Part"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 100.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 142.24 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d64b0dc-be5b-418e-a54a-7329042c0062")
+		(property "Reference" "FID4"
+			(at 144.78 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 140.97 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 142.24 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 132.08 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3254cdb8-dafc-47ca-a1c5-164b6f28619c")
+		(property "Reference" "FID3"
+			(at 134.62 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 130.81 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 132.08 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 132.08 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49028e32-30bd-47eb-9e53-b83a0a7bf657")
+		(property "Reference" "FID1"
+			(at 134.62 173.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 130.81 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 132.08 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 142.24 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c08a2d-91b1-4509-8b08-c16e82fc7154")
+		(property "Reference" "FID6"
+			(at 144.78 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 140.97 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 140.97 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 142.24 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 132.08 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97485eee-4c91-4308-83e7-1477047e7584")
+		(property "Reference" "FID2"
+			(at 134.62 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 130.81 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 132.08 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 132.08 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_miscellaneous:Fiducial")
+		(at 142.24 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8042a02-af6d-41c7-befa-0b0cef780c7c")
+		(property "Reference" "FID5"
+			(at 144.78 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 140.97 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Assembly Marker"
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" " "
+			(at 142.24 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 142.24 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "FID5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
