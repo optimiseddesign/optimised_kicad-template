@@ -104,7 +104,7 @@
 			(copper_finish "ENIG")
 			(dielectric_constraints yes)
 		)
-		(pad_to_mask_clearance 0.065)
+		(pad_to_mask_clearance 0.05)
 		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(aux_axis_origin 40 160)
@@ -177,7 +177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -203,7 +203,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "M3 Mounting Hole"
 			(at 46 154 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -251,7 +251,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/00000000-0000-0000-0000-00005eaeed3f")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -415,7 +417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -441,7 +443,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "M3 Mounting Hole"
 			(at 46 66 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -489,7 +491,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/00000000-0000-0000-0000-00005eaefea5")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -653,7 +657,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -679,7 +683,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "M3 Mounting Hole"
 			(at 184 66 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -727,7 +731,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/00000000-0000-0000-0000-00005eaf0ac1")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -891,7 +897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -917,7 +923,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole with connection"
+		(property "Description" "M3 Mounting Hole"
 			(at 184 154 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -965,7 +971,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/00000000-0000-0000-0000-00005eaf13ed")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -1132,7 +1140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:PCB_Silk_Logo_Optimised"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1145,7 +1153,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1279,6 +1287,7 @@
 			)
 		)
 		(path "/00000000-0000-0000-0000-000060625bfa")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
@@ -98068,7 +98077,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98081,7 +98090,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98215,6 +98224,7 @@
 			)
 		)
 		(path "/97485eee-4c91-4308-83e7-1477047e7584")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -98260,6 +98270,263 @@
 			(uuid "c68f5e95-ad84-4bba-9ae3-f64cafee496a")
 		)
 	)
+	(footprint "_kb_miscellaneous:TestPoint_TH_Loop_1.27mm_Keystone_5001"
+		(layer "F.Cu")
+		(uuid "a7401fb7-48a0-41eb-9ede-775baf19d20d")
+		(at 50.589159 115.669159)
+		(property "Reference" "TP1"
+			(at 0.3 -2.15 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d2ce65f2-797f-4174-85b1-9a37ea8efb0e")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "TestPoint_TH_Loop_1.27mm_Keystone_5001"
+			(at 1.4 2.3 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "813095b1-8210-472b-9c16-330a609289fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:TestPoint_TH_Loop_1.27mm_Keystone_5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f48552b-a0b6-46b3-b08f-b2372aeac88a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\Keystone 5000-5004 Series TH Loop Test Points.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00795d64-b43a-40a6-8303-0118b0cc28aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Miniature Test Point TH 1.27mm Loop"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bfda4e8-ff9f-4691-82f5-8f1e7cc90228")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer1" "Keystone Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73405d48-18fd-42d1-89fb-7ecb7700819a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN1" "5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b7f5a5a-dbc6-451b-b2b5-af0866de2247")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b65c5dc-a93a-425d-9930-dd11de0e301d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4510878-f863-4827-a13d-15e66337b5fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor1" "Farnell"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd52a4cd-0767-4f1d-b5e1-a59314580c66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU1" "2301278"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed6992a7-60e3-491d-96a6-2a2670773dc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor2" "Mouser"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5f260cd-ac94-49cc-8f62-c8b36ce6ec1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU2" "534-5001"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea1cc4ae-7eb5-480f-8e0c-1bb0ceb48277")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitPart" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b7bdd3-f26f-404f-af6e-9c8e2c8b1cd2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/8b292ebc-6582-4d71-a4ee-601bdb1074fa")
+		(sheetname "Root")
+		(sheetfile "PTXXXX_boardname.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 1.2 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "8308d167-6771-4a95-b71e-827d09f6245a")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.55 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "83baf265-0da3-4114-b349-d39faf2c7fa9")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.2 0.1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "3967732a-fe6b-44ba-a1a0-98fa01e9e51f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d6e1cf40-9b52-467c-8b91-e39585e8a9c6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2 2)
+			(drill 1)
+			(property pad_prop_testpoint)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "59c62362-fce7-4db4-a16c-bd15e682a8d3")
+		)
+		(model "${KIPRJMOD}/optimised_kicad-libraries/models3d/miscellaneous.3dshapes/TestPoint_TH_Loop_1.27mm_Keystone_5001.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 		(layer "F.Cu")
 		(uuid "bf22be03-d76a-41ea-b394-227b99dd44f0")
@@ -98289,7 +98556,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98302,7 +98569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98436,6 +98703,7 @@
 			)
 		)
 		(path "/3254cdb8-dafc-47ca-a1c5-164b6f28619c")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -98510,7 +98778,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98523,7 +98791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98657,6 +98925,7 @@
 			)
 		)
 		(path "/49028e32-30bd-47eb-9e53-b83a0a7bf657")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -98702,6 +98971,242 @@
 			(uuid "4f009e40-34f7-447d-8314-b2ccb915c4db")
 		)
 	)
+	(footprint "_kb_miscellaneous:TestPoint_Pad_1.3mm"
+		(layer "F.Cu")
+		(uuid "e9c707d9-40d8-4491-8bbb-c70fbfc6baa5")
+		(at 50.1 118.7)
+		(descr "1.3mm top copper pad, no step model")
+		(property "Reference" "TP2"
+			(at 0.1 -1.1 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f550ae8b-271f-4817-9c84-790af8a63dbf")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.12)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Pad_1.3mm"
+			(at 0.45 1.45 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "747769f9-a6e3-4dbe-9958-ed1528ada2a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "_kb_miscellaneous:TestPoint_Pad_1.3mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfb6a4d6-af9b-4370-ac97-a2ca336f0ad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5428397a-1d01-4860-86d6-5401148e180c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Test Point 1.3mm Pad"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c1c2a2d-4679-4cfe-9b6d-da10a147a229")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer1" "N/A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "647432c7-b58f-4903-bd21-27a8e69a76a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN1" "N/A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7192d54-45c0-47b9-acb3-88c4f2aac3c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff88d9a6-8d3c-40d1-82b3-f8c29ade63a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ea38949-572a-4527-a56b-99919815e3ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "908ee0ec-9f35-49b9-bdd2-9de3ffa6f1a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23db1668-afd8-4e43-9ccd-6cb0eb1df728")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3318231a-33cb-496f-ac19-b018aa84d210")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e88e126e-c31e-47fa-9761-6c7652f43582")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "FitPart" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9219e56-3111-47e2-8341-9f948c54a01d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a64f84bd-bffe-41e7-8d79-ec80ea2aedc3")
+		(sheetname "Root")
+		(sheetfile "PTXXXX_boardname.kicad_sch")
+		(zone_connect 2)
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "5cc7b62c-8430-495d-a412-0c37d8eb1ff0")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.65 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.Fab")
+			(uuid "811804ba-bfed-4a15-a182-ab73a41dbebe")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.1 -1.1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e5d96c58-87fd-42c2-9e4e-3db436e395d1")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.3 1.3)
+			(property pad_prop_testpoint)
+			(layers "F.Cu" "F.Mask")
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "f6c099ef-87b0-46b8-aa85-fb65e01e6afd")
+		)
+	)
 	(footprint "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 		(layer "B.Cu")
 		(uuid "4f6c4a3e-b219-475b-a77b-66294f8cf1aa")
@@ -98733,7 +99238,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98746,7 +99251,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98889,6 +99394,7 @@
 			)
 		)
 		(path "/a8042a02-af6d-41c7-befa-0b0cef780c7c")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -98966,7 +99472,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -98979,7 +99485,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99122,6 +99628,7 @@
 			)
 		)
 		(path "/91c08a2d-91b1-4509-8b08-c16e82fc7154")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -99199,7 +99706,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "_kb_miscellaneous:Fiducial_1mm_Mask3mm"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99212,7 +99719,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\miscellaneous\\"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -99355,6 +99862,7 @@
 			)
 		)
 		(path "/0d64b0dc-be5b-418e-a54a-7329042c0062")
+		(sheetname "Root")
 		(sheetfile "PTXXXX_boardname.kicad_sch")
 		(attr smd)
 		(fp_circle

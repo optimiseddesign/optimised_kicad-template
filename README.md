@@ -2,14 +2,14 @@
 
 This document gives information and history for the following PCB release:
 
-|Item                           |Value                          |
-|-------------------------------|-------------------------------|
-|Board Name                     |Board Name                     |
-|PCB ID                         |PTXXXX                         |
-|Revision (Layout/PCB)          |1.0                            |
-|Revision (Schematic/BOM)       |1A                             |
-|Release Date                   |YYYY-MM-DD                     |
-|Customer                       |CUSTOMER                       |
+|Item                           |Value                                        |
+|-------------------------------|---------------------------------------------|
+|Board Name                     |Board Name                                   |
+|PCB ID                         |PTXXXX                                       |
+|Revision (Layout/PCB)          |1.0                                          |
+|Revision (Schematic/BOM)       |1A                                           |
+|Release Date                   |YYYY-MM-DD                                   |
+|Customer                       |CUSTOMER                                     |
 
 > Note: This PCB release has been designed by Optimised Product Design Ltd, on behalf of the Customer Company.
 
