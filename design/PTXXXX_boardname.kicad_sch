@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "be6dff3f-7b56-472d-ad92-9d283766b79e")
 	(paper "A4")
 	(title_block
@@ -15,11 +15,15 @@
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -115,6 +119,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "_kb_miscellaneous:Fiducial"
 			(pin_names
@@ -261,6 +266,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "_kb_miscellaneous:Logo"
 			(pin_names
@@ -415,11 +421,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "_kb_miscellaneous:TestPoint_Pad_1.3mm"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.27) hide)
+				(offset 1.27)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -579,11 +590,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "_kb_miscellaneous:TestPoint_TH_Loop_1.27mm_Keystone_5001"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.27) hide)
+				(offset 1.27)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -743,11 +759,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -796,7 +817,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "power-flag"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
 					(font
@@ -822,8 +843,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -839,7 +860,91 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 74.93 40.64)
+		(end 129.54 81.28)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04e91ba8-3505-4eba-9636-a6ab7f19de6d)
+	)
+	(rectangle
+		(start 163.83 186.69)
+		(end 165.1 191.77)
+		(stroke
+			(width 0)
+			(type dash_dot_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ee73494-b1f1-4b9e-8f8e-cbe67b488d9a)
+	)
+	(text "<---- Test Point 1.0mm TH hole\n(for 1.27mm loop test point part)"
+		(exclude_from_sim no)
+		(at 222.25 120.65 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "20b0485d-7352-4564-aff9-143d9b1757fc")
+	)
+	(text "Route as matched length 100Z differential pairs"
+		(exclude_from_sim no)
+		(at 101.6 190.5 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "217288e6-8f8e-4cf9-87bb-d7a0080eb6f8")
+	)
+	(text "Title"
+		(exclude_from_sim no)
+		(at 140.97 43.18 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c59648d-32f4-47d2-b8d6-11c01f8cc2a4")
+	)
+	(text "Descriptive text about a circuit block / interface."
+		(exclude_from_sim no)
+		(at 140.97 46.99 0)
+		(effects
+			(font
+				(size 1.4986 1.4986)
+			)
+			(justify left bottom)
+		)
+		(uuid "931c8188-1eb4-4903-9218-d54f9ee20205")
+	)
+	(text "<---- Test Point 1.3mm SM pad\n(other sizes available)"
+		(exclude_from_sim no)
+		(at 222.25 133.35 0)
+		(effects
+			(font
+				(size 1 1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e807c5cd-017e-4839-b5a9-5b8db20247b8")
 	)
 	(junction
 		(at 49.53 181.61)
@@ -989,89 +1094,6 @@
 		)
 		(uuid "f398c5fb-7b8d-4fdf-b399-85fb98e738d5")
 	)
-	(rectangle
-		(start 74.93 40.64)
-		(end 129.54 81.28)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 04e91ba8-3505-4eba-9636-a6ab7f19de6d)
-	)
-	(rectangle
-		(start 163.83 186.69)
-		(end 165.1 191.77)
-		(stroke
-			(width 0)
-			(type dash_dot_dot)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 0ee73494-b1f1-4b9e-8f8e-cbe67b488d9a)
-	)
-	(text "<---- Test Point 1.0mm TH hole\n(for 1.27mm loop test point part)"
-		(exclude_from_sim no)
-		(at 222.25 120.65 0)
-		(effects
-			(font
-				(size 1 1)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "20b0485d-7352-4564-aff9-143d9b1757fc")
-	)
-	(text "Route as matched length 100Z differential pairs"
-		(exclude_from_sim no)
-		(at 101.6 190.5 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-			)
-			(justify left bottom)
-		)
-		(uuid "217288e6-8f8e-4cf9-87bb-d7a0080eb6f8")
-	)
-	(text "Title"
-		(exclude_from_sim no)
-		(at 140.97 43.18 0)
-		(effects
-			(font
-				(size 2.0066 2.0066)
-				(thickness 0.4013)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c59648d-32f4-47d2-b8d6-11c01f8cc2a4")
-	)
-	(text "Descriptive text about a circuit block / interface."
-		(exclude_from_sim no)
-		(at 140.97 46.99 0)
-		(effects
-			(font
-				(size 1.4986 1.4986)
-			)
-			(justify left bottom)
-		)
-		(uuid "931c8188-1eb4-4903-9218-d54f9ee20205")
-	)
-	(text "<---- Test Point 1.3mm SM pad\n(other sizes available)"
-		(exclude_from_sim no)
-		(at 222.25 133.35 0)
-		(effects
-			(font
-				(size 1 1)
-				(italic yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "e807c5cd-017e-4839-b5a9-5b8db20247b8")
-	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 36.83 176.53 0)
@@ -1117,7 +1139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M3 Mounting Hole"
+		(property "Description" "M3 Mounting Hole with connection"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -1209,7 +1231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 36.83 184.15 0)
 			(effects
 				(font
@@ -1275,7 +1297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M3 Mounting Hole"
+		(property "Description" "M3 Mounting Hole with connection"
 			(at 49.53 176.53 0)
 			(effects
 				(font
@@ -1368,7 +1390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M3 Mounting Hole"
+		(property "Description" "M3 Mounting Hole with connection"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -1396,6 +1418,60 @@
 			)
 		)
 		(property "FitPart" "DNF"
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" ""
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" ""
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" ""
+			(at 62.23 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" ""
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -1461,7 +1537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "M3 Mounting Hole"
+		(property "Description" "Mounting Hole with connection"
 			(at 74.93 176.53 0)
 			(effects
 				(font
@@ -1489,6 +1565,60 @@
 			)
 		)
 		(property "FitPart" "DNF"
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer2" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN2" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU1" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" ""
+			(at 74.93 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU2" ""
 			(at 74.93 176.53 0)
 			(effects
 				(font
@@ -2133,7 +2263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 119.38 0)
 			(effects
 				(font
@@ -3072,7 +3202,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 132.08 0)
 			(effects
 				(font
@@ -3098,4 +3228,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
