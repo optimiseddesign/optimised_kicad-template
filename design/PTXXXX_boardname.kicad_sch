@@ -886,6 +886,19 @@
 		)
 		(uuid "217288e6-8f8e-4cf9-87bb-d7a0080eb6f8")
 	)
+	(text "I2C0 Bus Address Table (7-Bit)"
+		(exclude_from_sim no)
+		(at 35.56 102.87 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b92af87-ea43-44ec-b464-b80379dbd4f7")
+	)
 	(text "Title"
 		(exclude_from_sim no)
 		(at 140.97 43.18 0)
@@ -1069,6 +1082,554 @@
 			(type default)
 		)
 		(uuid "f398c5fb-7b8d-4fdf-b399-85fb98e738d5")
+	)
+	(table
+		(column_count 5)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 31.75 13.97 20.32 15.24 20.32)
+		(row_heights 3.81 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Name"
+				(exclude_from_sim no)
+				(at 35.56 105.41 0)
+				(size 31.75 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.4)
+				)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "aea0bda8-e5e0-480c-b403-fc5d6f040e2e")
+			)
+			(table_cell "Device"
+				(exclude_from_sim no)
+				(at 67.31 105.41 0)
+				(size 13.97 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.4)
+				)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "3c49164c-08b7-4fb3-9f7d-67d83213150c")
+			)
+			(table_cell "Final Addr"
+				(exclude_from_sim no)
+				(at 81.28 105.41 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.4)
+				)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "f07372a2-2a0c-4100-8d91-c33f7d555250")
+			)
+			(table_cell "Base Addr"
+				(exclude_from_sim no)
+				(at 101.6 105.41 0)
+				(size 15.24 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.4)
+				)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "76e62f8e-b06f-49fe-8443-3d8ac23b177e")
+			)
+			(table_cell "Chosen Ax"
+				(exclude_from_sim no)
+				(at 116.84 105.41 0)
+				(size 20.32 3.81)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type color)
+					(color 194 194 194 0.4)
+				)
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.2)
+						(bold yes)
+					)
+					(justify left)
+				)
+				(uuid "084ddedd-8925-4e6b-aa84-2a563e9d2166")
+			)
+			(table_cell "Fan Controller #2 (Normal)"
+				(exclude_from_sim no)
+				(at 35.56 109.22 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "774e2da1-fe1e-4d4f-ac76-fd02b23e010e")
+			)
+			(table_cell "EMC2101"
+				(exclude_from_sim no)
+				(at 67.31 109.22 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "cf982ca9-93a8-4860-9c7e-83f1c71cc938")
+			)
+			(table_cell "0x1001100b (0x4C)"
+				(exclude_from_sim no)
+				(at 81.28 109.22 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "23f8d97b-10ae-4db1-8d64-cadece7b8611")
+			)
+			(table_cell "Fixed"
+				(exclude_from_sim no)
+				(at 101.6 109.22 0)
+				(size 15.24 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "4cffb854-8a5b-4e1a-be00-44ae944a55d2")
+			)
+			(table_cell "Fixed"
+				(exclude_from_sim no)
+				(at 116.84 109.22 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "331dc0c1-30e1-4607-9dfe-b529d03d00ad")
+			)
+			(table_cell "Fan Controller #2 (ARA)"
+				(exclude_from_sim no)
+				(at 35.56 111.76 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "6d635953-d5ef-44a1-a739-cdf89dd93c18")
+			)
+			(table_cell "EMC2101"
+				(exclude_from_sim no)
+				(at 67.31 111.76 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "655443a5-7148-4b8f-bbdb-d89fc9287f4e")
+			)
+			(table_cell "0x0001100b (0x0C)"
+				(exclude_from_sim no)
+				(at 81.28 111.76 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "5228e627-c84b-40fe-91e9-fee10ff09332")
+			)
+			(table_cell "Fixed"
+				(exclude_from_sim no)
+				(at 101.6 111.76 0)
+				(size 15.24 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "a935ce79-7bbe-427f-82f4-a070c59874c4")
+			)
+			(table_cell "Fixed"
+				(exclude_from_sim no)
+				(at 116.84 111.76 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left)
+				)
+				(uuid "d3141298-7bd8-40ca-9143-99a45f3421bf")
+			)
+			(table_cell "GPIO Expander #1 (I/O Out)\n"
+				(exclude_from_sim no)
+				(at 35.56 114.3 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "20a658b3-7855-4c2b-befc-9c8a3ddb55e8")
+			)
+			(table_cell "MCP23017\n"
+				(exclude_from_sim no)
+				(at 67.31 114.3 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "3c4f932d-7fa7-4aec-9af1-5abb75a0bc55")
+			)
+			(table_cell "0x0100000b (0x20)"
+				(exclude_from_sim no)
+				(at 81.28 114.3 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "66a2437c-de4e-41f2-b703-7f280f8f1b95")
+			)
+			(table_cell "0x0100AAAb\n"
+				(exclude_from_sim no)
+				(at 101.6 114.3 0)
+				(size 15.24 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "b459465d-910a-4476-8f66-ae670ef2c0ae")
+			)
+			(table_cell "A2,A1,A0=GND\n"
+				(exclude_from_sim no)
+				(at 116.84 114.3 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "6824d8f9-4dc1-47eb-b321-2bd85bcc7062")
+			)
+			(table_cell "GPIO Expander #2 (I/O In, misc)"
+				(exclude_from_sim no)
+				(at 35.56 116.84 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "eca53ab7-03fa-441d-95f1-a035295898c7")
+			)
+			(table_cell "MCP23017"
+				(exclude_from_sim no)
+				(at 67.31 116.84 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "4aeda692-6f7e-47e9-a829-18b77daf8a12")
+			)
+			(table_cell "0x0100001b (0x21)"
+				(exclude_from_sim no)
+				(at 81.28 116.84 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "6ea4655a-0c24-4835-a656-a04fb3467df1")
+			)
+			(table_cell "0x0100AAAb"
+				(exclude_from_sim no)
+				(at 101.6 116.84 0)
+				(size 15.24 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "d79a50a6-2b6e-4758-8a64-4ba00fb3dc0f")
+			)
+			(table_cell "A2,A1=GND,A0=3V3"
+				(exclude_from_sim no)
+				(at 116.84 116.84 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "d704dbb7-9965-445b-8857-756aaf88fd7f")
+			)
+			(table_cell "ADC Expander"
+				(exclude_from_sim no)
+				(at 35.56 119.38 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "d216335a-c6a3-4f8f-8b04-b25ea2d03f57")
+			)
+			(table_cell "ADS7828"
+				(exclude_from_sim no)
+				(at 67.31 119.38 0)
+				(size 13.97 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "b3574be3-db44-43a9-912e-3d5bfc3d2a08")
+			)
+			(table_cell "0x1001000b (0x48)"
+				(exclude_from_sim no)
+				(at 81.28 119.38 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "b13e977e-7cfd-4a2c-a6fa-5da230fbd8af")
+			)
+			(table_cell "0x10010AAb"
+				(exclude_from_sim no)
+				(at 101.6 119.38 0)
+				(size 15.24 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "3c418362-337a-4f88-b977-b83c5e52720a")
+			)
+			(table_cell "A1,A0=GND"
+				(exclude_from_sim no)
+				(at 116.84 119.38 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(justify left top)
+				)
+				(uuid "620833c6-f109-421d-bbc1-69ea228c6068")
+			)
+		)
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
