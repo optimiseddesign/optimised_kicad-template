@@ -765,12 +765,6 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": true,
-          "label": "FitPart",
-          "name": "FitPart",
           "show": true
         },
         {
@@ -842,7 +836,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "${ITEM_NUMBER}"
@@ -893,11 +887,6 @@
           "name": "SKU2",
           "url": false,
           "visible": false
-        },
-        {
-          "name": "FitPart",
-          "url": false,
-          "visible": true
         }
       ],
       "intersheets_ref_own_page": false,

@@ -126,7 +126,7 @@
 				(offset 1.27)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
 				(at 0 2.54 0)
@@ -244,15 +244,6 @@
 					(hide yes)
 				)
 			)
-			(property "FitPart" "DNF"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "Fiducial_0_1"
 				(circle
 					(center 0 0)
@@ -273,7 +264,7 @@
 				(offset 1.27)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "LOGO"
 				(at 5.08 1.27 0)
@@ -390,15 +381,6 @@
 					(hide yes)
 				)
 			)
-			(property "FitPart" "DNF"
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "Select logo footprint after placing"
 				(at 0 0 0)
 				(effects
@@ -432,10 +414,10 @@
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 5.08 0)
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -550,30 +532,22 @@
 					(hide yes)
 				)
 			)
-			(property "FitPart" "DNF"
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "TestPoint_Pad_1.3mm_1_1"
 				(circle
-					(center 0 3.302)
-					(radius 0.762)
+					(center 0 1.778)
+					(radius 0.508)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.1)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type color)
+						(color 132 0 0 0.5019607843)
 					)
 				)
 				(pin passive line
 					(at 0 0 90)
-					(length 2.54)
+					(length 1.27)
 					(name "1"
 						(effects
 							(font
@@ -604,7 +578,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "TP"
-				(at 0 5.08 0)
+				(at 0 5.334 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -719,22 +693,24 @@
 					(hide yes)
 				)
 			)
-			(property "FitPart" " "
-				(at 1.27 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "TestPoint_TH_Loop_1.27mm_Keystone_5001_1_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 0.762)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(circle
 					(center 0 3.302)
 					(radius 0.762)
 					(stroke
-						(width 0)
-						(type default)
+						(width 0.3)
+						(type solid)
 					)
 					(fill
 						(type none)
@@ -742,7 +718,7 @@
 				)
 				(pin passive line
 					(at 0 0 90)
-					(length 2.54)
+					(length 1.27)
 					(name "1"
 						(effects
 							(font
@@ -1099,7 +1075,7 @@
 		(at 36.83 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaeed3f")
@@ -1158,15 +1134,6 @@
 			)
 		)
 		(property "MPN1" "N/A"
-			(at 36.83 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 36.83 176.53 0)
 			(effects
 				(font
@@ -1257,7 +1224,7 @@
 		(at 49.53 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaefea5")
@@ -1324,15 +1291,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 49.53 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e9cff397-e18d-476f-ba66-82245dd3ddb4")
 		)
@@ -1350,7 +1308,7 @@
 		(at 62.23 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaf0ac1")
@@ -1409,15 +1367,6 @@
 			)
 		)
 		(property "MPN1" "N/A"
-			(at 62.23 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 62.23 176.53 0)
 			(effects
 				(font
@@ -1497,7 +1446,7 @@
 		(at 74.93 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005eaf13ed")
@@ -1556,15 +1505,6 @@
 			)
 		)
 		(property "MPN1" "N/A"
-			(at 74.93 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
 			(at 74.93 176.53 0)
 			(effects
 				(font
@@ -1644,7 +1584,7 @@
 		(at 102.87 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060625bfa")
@@ -1765,15 +1705,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 100.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -1788,7 +1719,7 @@
 		(at 142.24 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -1910,15 +1841,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 142.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -1933,7 +1855,7 @@
 		(at 132.08 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2055,15 +1977,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 132.08 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -2078,7 +1991,7 @@
 		(at 132.08 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2200,15 +2113,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 132.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -2289,7 +2193,7 @@
 		(at 102.87 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "77b354d6-c776-4b7c-8fce-cbff067aaa39")
@@ -2410,15 +2314,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 100.33 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -2436,7 +2331,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8b292ebc-6582-4d71-a4ee-601bdb1074fa")
 		(property "Reference" "TP1"
 			(at 219.71 115.57 0)
@@ -2555,15 +2450,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" " "
-			(at 217.17 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6e511151-7089-45b9-933a-470172f92ea6")
 		)
@@ -2581,7 +2467,7 @@
 		(at 142.24 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2703,15 +2589,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 142.24 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -2726,7 +2603,7 @@
 		(at 132.08 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -2848,15 +2725,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 132.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
@@ -2871,7 +2739,7 @@
 		(at 218.44 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a64f84bd-bffe-41e7-8d79-ec80ea2aedc3")
@@ -2992,15 +2860,6 @@
 				(hide yes)
 			)
 		)
-		(property "FitPart" "DNF"
-			(at 219.71 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "df28cbab-d2f4-474d-8177-184b2d317112")
 		)
@@ -3018,7 +2877,7 @@
 		(at 142.24 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -3133,15 +2992,6 @@
 		)
 		(property "SKU2" " "
 			(at 142.24 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "FitPart" "DNF"
-			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
