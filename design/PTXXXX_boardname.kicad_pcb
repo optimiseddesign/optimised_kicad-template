@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Board Name")
-		(date "2023-08-08")
+		(date "2025-12-19")
 		(rev "1.0")
 		(company "XXXX Ltd")
 		(comment 1 "PTXXXX")
@@ -100199,7 +100199,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Layer Name:          Eco1.User\nLayer Description:    Other Documentation Layer"
+	(gr_text "Layer Name:          User.Eco1\nLayer Description:    Other Documentation Layer"
 		(at 67.2 27.4 0)
 		(layer "Eco1.User")
 		(uuid "00000000-0000-0000-0000-00005eb02c4e")
@@ -100212,7 +100212,7 @@
 			(justify left)
 		)
 	)
-	(gr_text "Layer Name:          Eco2.User\nLayer Description:    Other Documentation Layer"
+	(gr_text "Layer Name:          User.Eco2\nLayer Description:    Other Documentation Layer"
 		(at 67.2 27.4 0)
 		(layer "Eco2.User")
 		(uuid "00000000-0000-0000-0000-00005eb02c41")
