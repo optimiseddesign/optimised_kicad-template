@@ -251,7 +251,32 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
+    "layer_pairs": [
+      {
+        "bottomLayer": 2,
+        "enabled": true,
+        "name": "Outer",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "name": "Inner",
+        "topLayer": 6
+      },
+      {
+        "bottomLayer": 4,
+        "enabled": true,
+        "name": "Top-Inner",
+        "topLayer": 0
+      },
+      {
+        "bottomLayer": 6,
+        "enabled": true,
+        "name": "Bottom-Inner",
+        "topLayer": 2
+      }
+    ],
     "layer_presets": [
       {
         "activeLayer": -2,
