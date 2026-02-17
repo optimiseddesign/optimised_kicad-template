@@ -697,13 +697,26 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 5
+      },
+      {
+        "name": "90Z_DIFF",
+        "pcb_color": "rgb(0, 255, 255)",
+        "priority": 0,
+        "schematic_color": "rgb(0, 255, 255)"
       }
     ],
     "meta": {
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/D+": [
+        "90Z_DIFF"
+      ],
+      "/D-": [
+        "90Z_DIFF"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
