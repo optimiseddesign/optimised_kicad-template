@@ -100843,7 +100843,7 @@
 					(justify right top)
 				)
 			)
-			(table_cell "100.0MM X 150.0MM"
+			(table_cell "100.0MM X 150.0MM ± 0.2MM"
 				(start 224.23 121.64)
 				(end 277.9 124.04)
 				(margins 2 1.0025 1.0025 1.0025)
@@ -100873,7 +100873,7 @@
 					(justify right top)
 				)
 			)
-			(table_cell "1.6MM +/- 10% MAX OVER PLATING"
+			(table_cell "1.6MM ± 10% MAX OVER PLATING"
 				(start 224.23 124.04)
 				(end 277.9 126.44)
 				(margins 2 1.0025 1.0025 1.0025)
@@ -101068,7 +101068,7 @@
 					(justify left top)
 				)
 			)
-			(table_cell "PLUGGING:"
+			(table_cell "VIA TREATMENT:"
 				(start 203.05 140.84)
 				(end 224.23 143.24)
 				(margins 1.0025 1.0025 2 1.0025)
@@ -101083,7 +101083,7 @@
 					(justify right top)
 				)
 			)
-			(table_cell "NOT REQUIRED"
+			(table_cell "STANDARD, TENTED IPC-4761 TYPE I-B"
 				(start 224.23 140.84)
 				(end 277.9 143.24)
 				(margins 2 1.0025 1.0025 1.0025)
