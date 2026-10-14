@@ -1190,8 +1190,8 @@
 		)
 	)
 	(rectangle
-		(start 35.56 31.75)
-		(end 90.17 72.39)
+		(start 140.97 33.02)
+		(end 170.18 58.42)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1239,7 +1239,7 @@
 	)
 	(text "Title"
 		(exclude_from_sim no)
-		(at 101.6 34.29 0)
+		(at 181.61 35.56 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -1250,16 +1250,40 @@
 		)
 		(uuid "6c59648d-32f4-47d2-b8d6-11c01f8cc2a4")
 	)
-	(text "Descriptive text about a circuit block / interface.\nDynamic Calculation P_{OUT} = I^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:REFERENCE} = 30mA^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE} = @{round(pow(0.030, 2) * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE}, 2)}W"
+	(text "Descriptive text about the circuit board."
 		(exclude_from_sim no)
-		(at 101.6 41.656 0)
+		(at 36.322 38.1 0)
 		(effects
 			(font
 				(size 1.5 1.5)
 			)
-			(justify left bottom)
+			(justify left top)
+		)
+		(uuid "887148f6-e6fc-4de1-bf3b-228e9212972e")
+	)
+	(text "Descriptive text about a circuit block / interface.\nDynamic Calculation P_{OUT} = I^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:REFERENCE} = 30mA^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE} = @{round(pow(0.030, 2) * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE}, 2)}W"
+		(exclude_from_sim no)
+		(at 181.61 37.338 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
 		)
 		(uuid "931c8188-1eb4-4903-9218-d54f9ee20205")
+	)
+	(text "@{if(\"${VARIANT}\"==\"\", \"${TITLE}\", \"${TITLE} (Variant: ${VARIANT}, ${VARIANT_DESC})\")}"
+		(exclude_from_sim no)
+		(at 36.322 36.322 0)
+		(effects
+			(font
+				(size 2.0066 2.0066)
+				(thickness 0.4013)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8ebe1c5-f87a-4f62-b3a8-d0423931b322")
 	)
 	(text "<---- Test Point 1.3mm SM pad\n(other sizes available)"
 		(exclude_from_sim no)
@@ -1303,7 +1327,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 35.56) (xy 99.06 33.02)
+			(xy 170.18 36.83) (xy 179.07 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4378,7 +4402,7 @@
 	)
 	(symbol
 		(lib_id "_kb_resistors:Resistor_SMD_0603_1608m")
-		(at 180.34 38.1 0)
+		(at 260.35 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4389,7 +4413,7 @@
 		(fields_autoplaced yes)
 		(uuid "db71de54-0981-455d-832f-a7f0dcf530bc")
 		(property "Reference" "R1"
-			(at 182.88 36.8299 0)
+			(at 262.89 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4400,7 +4424,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 182.88 39.3699 0)
+			(at 262.89 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4411,7 +4435,7 @@
 			)
 		)
 		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
-			(at 179.197 39.37 0)
+			(at 259.207 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4422,7 +4446,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
-			(at 179.197 39.37 0)
+			(at 259.207 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4433,7 +4457,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4444,7 +4468,7 @@
 			)
 		)
 		(property "Manufacturer1" "ANY"
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4455,7 +4479,7 @@
 			)
 		)
 		(property "MPN1" "As Appropriate"
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4466,7 +4490,7 @@
 			)
 		)
 		(property "Manufacturer2" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4477,7 +4501,7 @@
 			)
 		)
 		(property "MPN2" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4488,7 +4512,7 @@
 			)
 		)
 		(property "Vendor1" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4499,7 +4523,7 @@
 			)
 		)
 		(property "SKU1" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4510,7 +4534,7 @@
 			)
 		)
 		(property "Vendor2" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4545,7 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 180.34 38.1 0)
+			(at 260.35 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

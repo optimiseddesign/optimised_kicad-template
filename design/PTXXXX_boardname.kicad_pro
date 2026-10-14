@@ -1019,7 +1019,7 @@
     "top_level_sheets": [
       {
         "filename": "PTXXXX_boardname.kicad_sch",
-        "name": "PTXXXX_boardname",
+        "name": "Root",
         "uuid": "be6dff3f-7b56-472d-ad92-9d283766b79e"
       }
     ],
@@ -1029,7 +1029,7 @@
   "sheets": [
     [
       "be6dff3f-7b56-472d-ad92-9d283766b79e",
-      "PTXXXX_boardname"
+      "Root"
     ]
   ],
   "text_variables": {},
