@@ -1023,7 +1023,7 @@
         "uuid": "be6dff3f-7b56-472d-ad92-9d283766b79e"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "U1,R1,#PWR4",
     "variants": []
   },
   "sheets": [
