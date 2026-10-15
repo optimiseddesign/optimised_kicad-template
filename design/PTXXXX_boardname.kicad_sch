@@ -137,6 +137,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "_kb_connectors:Header_2.54mm_TH_01x02_Vertical"
+			(pin_names
+				(offset 1.27)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Header_2.54mm_TH_01x02_Vertical"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at -1.143 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\connectors\\"
+				(at -1.143 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.54mm Header 01x02 Way Vertical TH"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer1" "ANY"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN1" "As Appropriate"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer2" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN2" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor1" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SKU1" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Vendor2" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "SKU2" " "
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Header_2.54mm_TH_01x02_Vertical_1_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "_kb_miscellaneous:Fiducial"
 			(pin_names
 				(offset 1.27)
@@ -1190,8 +1414,8 @@
 		)
 	)
 	(rectangle
-		(start 140.97 33.02)
-		(end 170.18 58.42)
+		(start 106.68 31.75)
+		(end 135.89 57.15)
 		(stroke
 			(width 0)
 			(type dash)
@@ -1239,7 +1463,7 @@
 	)
 	(text "Title"
 		(exclude_from_sim no)
-		(at 181.61 35.56 0)
+		(at 147.32 34.29 0)
 		(effects
 			(font
 				(size 2.0066 2.0066)
@@ -1263,7 +1487,7 @@
 	)
 	(text "Descriptive text about a circuit block / interface.\nDynamic Calculation P_{OUT} = I^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:REFERENCE} = 30mA^{2} * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE} = @{round(pow(0.030, 2) * ${/be6dff3f-7b56-472d-ad92-9d283766b79e/db71de54-0981-455d-832f-a7f0dcf530bc:VALUE}, 2)}W"
 		(exclude_from_sim no)
-		(at 181.61 37.338 0)
+		(at 147.32 36.068 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1327,7 +1551,7 @@
 	)
 	(polyline
 		(pts
-			(xy 170.18 36.83) (xy 179.07 34.29)
+			(xy 135.89 35.56) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1357,6 +1581,36 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 33.02) (xy 252.73 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d3dc45a-e613-498c-87a0-009d99f1d8b7")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 257.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef64bc3-2e4f-47b8-a47d-855f77bdd415")
+	)
+	(wire
+		(pts
+			(xy 257.81 78.74) (xy 257.81 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f45599c-23cf-4614-892a-966cb1ce5664")
+	)
+	(wire
+		(pts
 			(xy 49.53 181.61) (xy 62.23 181.61)
 		)
 		(stroke
@@ -1364,6 +1618,36 @@
 			(type default)
 		)
 		(uuid "3c38b2f9-f918-4c1e-a96c-b913903bb7ca")
+	)
+	(wire
+		(pts
+			(xy 252.73 33.02) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eed6ff2-450a-477d-93d8-94d05abb8f02")
+	)
+	(wire
+		(pts
+			(xy 232.41 33.02) (xy 232.41 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6091d9-3224-4c03-a437-e6f90b25813f")
+	)
+	(wire
+		(pts
+			(xy 257.81 86.36) (xy 257.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f0e82c-18d4-4b19-9e4e-e1caf63f1fed")
 	)
 	(wire
 		(pts
@@ -1377,6 +1661,26 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 67.31) (xy 256.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7097c4b4-5d5d-4654-b9c4-a7511b29418e")
+	)
+	(wire
+		(pts
+			(xy 219.71 81.28) (xy 219.71 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79a565c1-cd6e-4eac-ba0e-97d48ee0982b")
+	)
+	(wire
+		(pts
 			(xy 218.44 130.81) (xy 218.44 132.08)
 		)
 		(stroke
@@ -1384,6 +1688,26 @@
 			(type default)
 		)
 		(uuid "82c5e0a1-006b-4e13-aca4-b7f45a6a985e")
+	)
+	(wire
+		(pts
+			(xy 232.41 43.18) (xy 232.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981795dd-ed8a-46aa-9ad7-ba0d4f23af31")
+	)
+	(wire
+		(pts
+			(xy 252.73 40.64) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76537df-67c5-456e-a054-f4a2d35b3443")
 	)
 	(wire
 		(pts
@@ -1427,6 +1751,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 69.85) (xy 256.54 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c62104-5c60-43de-8148-26d2443c7846")
+	)
+	(wire
+		(pts
 			(xy 74.93 181.61) (xy 74.93 179.07)
 		)
 		(stroke
@@ -1444,6 +1778,16 @@
 			(type default)
 		)
 		(uuid "f398c5fb-7b8d-4fdf-b399-85fb98e738d5")
+	)
+	(wire
+		(pts
+			(xy 219.71 86.36) (xy 219.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad123c5-8532-461c-9207-d3319152a65c")
 	)
 	(table
 		(column_count 5)
@@ -1994,6 +2338,36 @@
 			)
 		)
 	)
+	(label "ANT"
+		(at 220.98 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0264f40e-9b0b-4f67-8480-564f09df010d")
+	)
+	(label "D-"
+		(at 220.98 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25208ee8-d536-4bd0-a673-78fb7480fc2b")
+	)
+	(label "D+"
+		(at 220.98 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41e30fa3-8199-4d1c-87c2-26a93ab40197")
+	)
 	(label "D+"
 		(at 161.29 187.96 0)
 		(effects
@@ -2033,6 +2407,62 @@
 			(uuid "ab8ccbb0-7c1e-4504-a2b7-d17351b99598")
 		)
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 238.125 66.04) (xy 238.125 71.12) (xy 239.395 71.12) (xy 239.395 66.04)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "facce2b6-97d7-4243-abbd-a584c8fe7e48")
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 238.76 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10a700b3-21fe-4ab8-9e7c-b01f4485f0b2")
+		(property "Netclass" "90Z_DIFF"
+			(at 239.3696 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.845 -99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(netclass_flag ""
 		(length 1.27)
 		(shape round)
@@ -2060,6 +2490,80 @@
 		)
 		(property "Component Class" ""
 			(at -43.18 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 242.57 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a9b5378-ede0-4c75-8f31-568011871092")
+		(property "Netclass" "PWR"
+			(at 243.1796 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 33.655 -132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 1.27)
+		(shape round)
+		(at 238.76 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae4f6101-efb0-4bb8-b341-73ff6de7b053")
+		(property "Netclass" "50Z_SINGLE"
+			(at 239.3696 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(thickness 0.127)
+					(bold yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 29.845 -86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3171,6 +3675,251 @@
 		)
 	)
 	(symbol
+		(lib_id "_kb_connectors:Header_2.54mm_TH_01x02_Vertical")
+		(at 260.35 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37fcc203-bb19-4669-ab2f-16f32e8173c7")
+		(property "Reference" "J2"
+			(at 260.35 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "01x02 Way Vertical"
+			(at 267.97 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 259.207 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\connectors\\"
+			(at 259.207 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54mm Header 01x02 Way Vertical TH"
+			(at 260.35 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 260.35 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 260.35 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 260.35 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "22128135-ae06-4c6d-8855-6a241ab8862d")
+		)
+		(pin "1"
+			(uuid "11469c7f-c861-428b-81fc-064b2e77f1b3")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 43.18 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "43b74736-4f6e-4fde-a07a-5dfcd8220741")
+		(property "Reference" "#PWR07"
+			(at 252.73 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.27 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3bd0231-e0dd-4b42-b0b0-7797f1f822b8")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_kb_miscellaneous:Fiducial")
 		(at 132.08 173.99 0)
 		(unit 1)
@@ -3413,6 +4162,252 @@
 		)
 	)
 	(symbol
+		(lib_id "_kb_resistors:Resistor_SMD_0603_1608m")
+		(at 252.73 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66044f08-fea7-429e-94a7-4bd7dd36f8c4")
+		(property "Reference" "R4"
+			(at 255.27 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 255.27 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
+			(at 251.587 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at 251.587 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 252.73 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13d9f245-57e0-4cc1-ad23-1ef7b888e2a0")
+		)
+		(pin "2"
+			(uuid "4f6b6470-ad62-4e2a-b8a4-b7bae6455f52")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 219.71 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7716dd5e-42dc-4b5d-bdfc-fb9fc49112f3")
+		(property "Reference" "#PWR05"
+			(at 219.71 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 219.71 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f55b95a-fcfc-4e4b-ba6f-42392386365b")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_kb_miscellaneous:Logo")
 		(at 102.87 181.61 0)
 		(unit 1)
@@ -3570,6 +4565,174 @@
 			(project "PTXXXX_boardname"
 				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
 					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_connectors:Header_2.54mm_TH_01x02_Vertical")
+		(at 217.17 68.58 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "84d40bad-461f-467f-8bf7-b582bfe6f710")
+		(property "Reference" "J1"
+			(at 217.17 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "01x02 Way Vertical"
+			(at 209.55 63.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 218.313 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\connectors\\"
+			(at 218.313 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2.54mm Header 01x02 Way Vertical TH"
+			(at 217.17 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 217.17 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 217.17 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 217.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5b4ab56d-b2be-46cc-87f0-bccb056ba17b")
+		)
+		(pin "1"
+			(uuid "7f1a5e9d-18f3-49c0-a171-13d94e6a1c84")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4071,6 +5234,253 @@
 		)
 	)
 	(symbol
+		(lib_id "_kb_resistors:Resistor_SMD_0603_1608m")
+		(at 257.81 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3cfda80-478e-47c2-8749-9870887b65ef")
+		(property "Reference" "R3"
+			(at 260.35 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 260.35 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
+			(at 256.667 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at 256.667 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 257.81 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab4b0b88-9dd3-4bc8-99fa-c1f9d8b7b79b")
+		)
+		(pin "2"
+			(uuid "e75c534f-879d-44cc-b914-1276f8c056df")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 88.9 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a46fbdd2-6db7-4c36-b808-4edd49b760c3")
+		(property "Reference" "#PWR06"
+			(at 257.81 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a3ab598-7751-465d-8a0d-700e4741970a")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "_kb_miscellaneous:TestPoint_Pad_1.3mm")
 		(at 218.44 130.81 0)
 		(unit 1)
@@ -4402,7 +5812,8 @@
 	)
 	(symbol
 		(lib_id "_kb_resistors:Resistor_SMD_0603_1608m")
-		(at 260.35 39.37 0)
+		(at 219.71 83.82 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4410,10 +5821,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db71de54-0981-455d-832f-a7f0dcf530bc")
-		(property "Reference" "R1"
-			(at 262.89 38.0999 0)
+		(uuid "b6da18c6-ee6a-49a3-b700-90f109297c7d")
+		(property "Reference" "R2"
+			(at 217.17 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4424,7 +5834,7 @@
 			)
 		)
 		(property "Value" "12k"
-			(at 262.89 40.6399 0)
+			(at 217.17 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4435,7 +5845,7 @@
 			)
 		)
 		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
-			(at 259.207 40.64 0)
+			(at 220.853 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,7 +5856,7 @@
 			)
 		)
 		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
-			(at 259.207 40.64 0)
+			(at 220.853 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4457,7 +5867,7 @@
 			)
 		)
 		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4468,7 +5878,7 @@
 			)
 		)
 		(property "Manufacturer1" "ANY"
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +5889,7 @@
 			)
 		)
 		(property "MPN1" "As Appropriate"
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4490,7 +5900,7 @@
 			)
 		)
 		(property "Manufacturer2" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4501,7 +5911,7 @@
 			)
 		)
 		(property "MPN2" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4512,7 +5922,7 @@
 			)
 		)
 		(property "Vendor1" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4523,7 +5933,7 @@
 			)
 		)
 		(property "SKU1" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4534,7 +5944,7 @@
 			)
 		)
 		(property "Vendor2" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4545,7 +5955,254 @@
 			)
 		)
 		(property "SKU2" " "
-			(at 260.35 39.37 0)
+			(at 219.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4f6c34c-8070-44f0-bf90-971f4f96e624")
+		)
+		(pin "2"
+			(uuid "d78bb44e-9ad7-43bb-b835-c25c17f63e0a")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7b20697-32c1-4558-9a9c-89879949fff4")
+		(property "Reference" "#PWR04"
+			(at 232.41 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 229.87 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 232.41 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "178163dc-02c3-40a9-b599-bb321a4680cb")
+		)
+		(instances
+			(project "PTXXXX_boardname"
+				(path "/be6dff3f-7b56-472d-ad92-9d283766b79e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_kb_resistors:Resistor_SMD_0603_1608m")
+		(at 232.41 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db71de54-0981-455d-832f-a7f0dcf530bc")
+		(property "Reference" "R1"
+			(at 234.95 36.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12k"
+			(at 234.95 39.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "_kb_resistors:Resistor_SMD_0603_1608m"
+			(at 231.267 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}\\optimised_kicad-libraries\\datasheets\\resistors\\"
+			(at 231.267 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Chip Resistor 0603 (1608m) 1% 100mW"
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer1" "ANY"
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN1" "As Appropriate"
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer2" " "
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN2" " "
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor1" " "
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU1" " "
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vendor2" " "
+			(at 232.41 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SKU2" " "
+			(at 232.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

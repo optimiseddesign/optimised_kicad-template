@@ -744,7 +744,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 11,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
@@ -760,13 +760,34 @@
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 5
+        "wire_width": 6
       },
       {
+        "name": "50Z_SINGLE",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 255, 0)",
+        "track_width": 0.24,
+        "tuning_profile": ""
+      },
+      {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.2,
         "name": "90Z_DIFF",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgb(0, 255, 255)",
+        "tuning_profile": ""
+      },
+      {
+        "clearance": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 153, 0)",
+        "track_width": 0.5,
         "tuning_profile": ""
       }
     ],
@@ -775,11 +796,17 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/ANT": [
+        "50Z_SINGLE"
+      ],
       "/D+": [
         "90Z_DIFF"
       ],
       "/D-": [
         "90Z_DIFF"
+      ],
+      "Net-(R1-Pad1)": [
+        "PWR"
       ]
     },
     "netclass_patterns": []
@@ -1023,7 +1050,7 @@
         "uuid": "be6dff3f-7b56-472d-ad92-9d283766b79e"
       }
     ],
-    "used_designators": "U1,R1,#PWR4",
+    "used_designators": "U1,J1-2,R1-4,#PWR4-7,C1",
     "variants": []
   },
   "sheets": [

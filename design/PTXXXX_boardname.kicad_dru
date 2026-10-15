@@ -11,3 +11,26 @@
     (constraint physical_hole_clearance (min 0.2mm))
     (condition "B.Pad_Type == 'SMD'")
     (severity warning))
+
+(rule "90Z DiffPair - Track & Gap"
+	# From controlled impedance calculations - track width and gap
+	(constraint track_width (min 0.20mm) (opt 0.20mm) (max 0.20mm))
+	(constraint diff_pair_gap (min 0.20mm) (opt 0.20mm) (max 0.20mm))
+	(constraint diff_pair_uncoupled (max 10mm))
+	(condition "A.hasNetclass('90Z_DIFF')")
+)
+(rule "90Z DiffPair - Coplanar Clearance"
+	# From controlled impedance calculations - coplanar clearance
+	(constraint clearance (min 0.40mm) (opt 0.40mm) (max 0.40mm))
+	(condition "A.hasNetclass('90Z_DIFF') && B.Type == 'Zone' && B.NetName == 'GND'")
+)
+(rule "50Z SingleEnded - Track"
+	# From controlled impedance calculations - track width
+	(constraint track_width (min 0.24mm) (opt 0.24mm) (max 0.24mm))
+	(condition "A.hasNetclass('50Z_SINGLE')")
+)
+(rule "50Z SingleEnded - Coplanar Clearance"
+	# From controlled impedance calculations - coplanar clearance
+	(constraint clearance (min 0.40mm) (opt 0.40mm) (max 0.40mm))
+	(condition "A.hasNetclass('50Z_SINGLE') && B.Type == 'Zone' && B.NetName == 'GND'")
+)
