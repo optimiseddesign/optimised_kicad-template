@@ -714,7 +714,10 @@
       "_kb_modules",
       "_kb_relays-switches",
       "_kb_resistors",
-      "_kb_semiconductors-smd"
+      "_kb_semiconductors-smd",
+      "_kb_modules-plugin",
+      "_kb_modules-smd",
+      "_kb_modules-th"
     ],
     "pinned_symbol_libs": [
       "_kb_capacitors",
